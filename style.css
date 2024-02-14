@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 100vh;
+    background: #000;
+
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+}
+
+.portrait {
+    font-size: 20px; /* Adjust the font size accordingly */
+    line-height: 1.5; /* Adjust the line height accordingly */
+    background: url('sunset-time-tropical-beach-sea-with-coconut-palm-tree_992269-2.avif') fixed center no-repeat;
+    background-size: cover; /* Use 'cover' instead of 'contain' for a better fit */
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
